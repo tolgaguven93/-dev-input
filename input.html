@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İnput Ödev</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container border rounded my-5 bg-light">
+        <div class="container d-flex justify-content-center mt-5 mb-5 fw-bold fs-1">Hoşgeldiniz</div>
+      <div class="row d-flex justify-content-end ">
+        <div class="col-3">
+          <div class="container d-flex aling-items-center my-1">
+            <form
+              action="https://formsubmit.co/tolgaguven630@gmail.com"
+              method="POST"
+            >
+              <label for="name">İsim</label>
+              <div><input type="text" name="name" required id="name" /></div>
+              <label for="surname">soyisim</label>
+              <div>
+                <input type="text" name="surname" required id="surname" />
+              </div>
+              <label for="email">Email adresi</label>
+              <div><input type="email" name="email" required id="email" /></div>
+              <label for="age">Yaşınız</label>
+              <div>
+                <input
+                  type="number"
+                  name="age"
+                  required
+                  id="age"
+                  min="17"
+                  max="70"
+                />
+              </div>
+              <label for="textarea">Mesajınız</label>
+              <div>
+                <textarea name="textarea" id="textarea" cols="30" rows="5">
+            </textarea
+                >
+              </div>
+              <label for="range">Bizi Puanlayın</label>
+              <div><input type="range" name="range" required id="range" /></div>
+              <button type="submit">Gönder</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-8 d-flex justify-content-center aling-items-center"><h1>Düşünceleriniz bizim için önemlidir.</h1></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
